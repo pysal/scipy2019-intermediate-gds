@@ -1,0 +1,5 @@
+- subset the nightlights to Austin
+- send up all the data
+- build spatial joins/queries example
+- build zonestats example
+- build geocoding example
