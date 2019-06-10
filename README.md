@@ -51,7 +51,7 @@ We recommend using the Anaconda Python distribution. A full environment will be 
 
 Most of these will be recommended from conda-forge or PyPI. We will publish full installation directions, with specific pinned versions of packages, a month and a half before the conference. 
 
-Often, geopandas & rasterio (with their various dependencies on fiona, libgdal, and geos) are difficult for users to install and have experienced significant disruption recently in all install channels. Thus, we will also provide a docker developed by our colleague: https://github.com/darribas/gds_env
+Often, geopandas & rasterio (with their various dependencies on fiona, libgdal, and geos) are difficult for users to install and have experienced significant disruption recently in all install channels. Thus, we will also provide a conda environment to install all packages required for the workshop.
 
 *What skills are needed to successfully participate in your tutorial? Please check all that apply:
 
