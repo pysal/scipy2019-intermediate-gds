@@ -1,4 +1,4 @@
-# Scipy 2018 Tutorial - Introduction to Geospatial Data Analysis with Python 
+# Scipy 2019 Tutorial - Intermediate Methods for Geographic Geospatial Data Analysis
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pysal/scipy2019-intermediate-gds/master)
 
