@@ -30,7 +30,7 @@ This tutorial introduces intermediate concepts in geospatial data analysis in Py
 
   Examining spatial relationships in mathematical terms, including how to represent spatial relations in mathematical forms. 
 
-- 4:30-5:30: **Clustering & Anomaly Detection **
+- 4:30-5:30: **Clustering & Anomaly Detection**
 
     Understanding and examining the strange and novel spatial structures in data *(problem set planned for the final 15 minutes)*
 
