@@ -38,7 +38,7 @@ This tutorial introduces intermediate concepts in geospatial data analysis in Py
 
 Following this tutorial will require recent installations of:
 
-- Python >= 3.5 (it will probably work on python 2.7 as well, but I didn't test it specifically)
+- Python >= 3.5 
 - pandas
 - geopandas >= 0.3.0
 - rasterio
