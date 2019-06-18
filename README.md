@@ -43,6 +43,8 @@ Following this tutorial will require recent installations of:
 - geopandas >= 0.3.0
 - rasterio
 - python-rasterstats
+- geopy
+- contextily
 - matplotlib
 - rtree
 - libpysal
