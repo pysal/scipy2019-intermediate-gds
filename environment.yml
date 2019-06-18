@@ -15,7 +15,9 @@ dependencies:
   - jupyterlab
   - nbconvert
   - networkx
+  - numba
   - palettable
+  - pysal
   - rasterio
   - scikit-learn
   - seaborn
@@ -25,6 +27,7 @@ dependencies:
   - pip:
     - cenpy==1.0.0rc2
     - contextily
-    - mplleaflet
+    - rasterstats
     - libpysal
-    - esda
+    - geopy
+    - mplleaflet
