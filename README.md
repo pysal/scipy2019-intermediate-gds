@@ -1,4 +1,4 @@
-# Scipy 2019 Tutorial - Intermediate Methods for Geographic Geospatial Data Analysis
+# Scipy 2019 Tutorial - Intermediate Methods for Geospatial Data Analysis
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pysal/scipy2019-intermediate-gds/master)
 
@@ -76,7 +76,7 @@ Otherwise, you can download the repository as a .zip file by heading over
 to the GitHub repository (https://github.com/pysal/scipy2019-intermediate-gds) in
 your browser and click the green "Download" button in the upper right:
 
-![](img/download-button.png)
+![](download.png)
 
 ## Test the tutorial environment
 
