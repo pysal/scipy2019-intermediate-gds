@@ -74,7 +74,7 @@ If you have git installed, you can get the tutorial materials by cloning this re
 
 Otherwise, you can download the repository as a .zip file by heading over
 to the GitHub repository (https://github.com/pysal/scipy2019-intermediate-gds) in
-your browser and click the green "Download" button in the upper right:
+your browser, click the green "Download" button in the upper right, and then click the "Download Zip" link:
 
 ![](download.png)
 
