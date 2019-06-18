@@ -27,4 +27,7 @@ dependencies:
   - pip:
     - cenpy==1.0.0rc2
     - contextily
+    - rasterstats
+    - libpysal
+    - geopy
     - mplleaflet
