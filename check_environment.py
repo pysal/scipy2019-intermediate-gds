@@ -15,10 +15,12 @@ else:
         print('\n'.join(bad))
     else:
         try:
-            import geopandas
-            countries = geopandas.read_file("zip://./data/ne_110m_admin_0_countries.zip")
+            import pandas
+            listings = pandas.read_csv('./data/listings.csv.gz')
+            import geopandas, libpysal
+            countries = geopandas.read_file(libpysal.examples.get_path('south.shp'))
             print("All good. Enjoy the tutorial!")
         except Exception as e:
-            print("Couldn't read countries shapefile.")
+            print("Couldn't read builtin data.")
             print(e)
 
