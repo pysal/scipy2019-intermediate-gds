@@ -31,4 +31,5 @@ dependencies:
     - libpysal
     - geopy
     - mplleaflet
+    - mapclassify
     - esda
