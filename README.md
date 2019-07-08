@@ -61,8 +61,6 @@ Once this is installed, the following command will install all required packages
 conda env create -f environment.yml
 ```
 
-But of course, using another distribution (e.g. Enthought Canopy) or ``pip`` is fine as well (a requirements file is provided as well), as long as you have the above packages installed.
-
 
 ## Downloading the tutorial materials
 
