@@ -4,11 +4,11 @@ kernel_name: ana
 has_widgets: false
 title: 'Working with raster data'
 prev_page:
-  url: /deterministic/gds1-relations
-  title: 'Relations and spatial joins with vector data'
-next_page:
   url: /deterministic/gds1-relations-solutions
-  title: 'Relations and spatial joins problemset'
+  title: 'Relations and spatial joins (Problemset)'
+next_page:
+  url: /deterministic/gds2-rasters-solutions
+  title: 'Working with raster data (Problemset)'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 

@@ -7,8 +7,8 @@ prev_page:
   url: /deterministic/intro
   title: 'Deterministic Spatial Analysis'
 next_page:
-  url: /deterministic/gds2-rasters
-  title: 'Working with raster data'
+  url: /deterministic/gds1-relations-solutions
+  title: 'Relations and spatial joins (Problemset)'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 

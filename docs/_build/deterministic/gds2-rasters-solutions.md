@@ -2,13 +2,13 @@
 interact_link: content/deterministic/gds2-rasters-solutions.ipynb
 kernel_name: ana
 has_widgets: false
-title: 'Rasters problemset'
+title: 'Working with raster data (Problemset)'
 prev_page:
-  url: /deterministic/gds1-relations-solutions
-  title: 'Relations and spatial joins problemset'
+  url: /deterministic/gds2-rasters
+  title: 'Working with raster data'
 next_page:
-  url: 
-  title: ''
+  url: /stochastic/intro
+  title: 'Deterministic Spatial Analysis'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 

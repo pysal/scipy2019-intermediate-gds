@@ -50,9 +50,25 @@
   sections:
   - title: Relations and spatial joins with vector data
     url: /deterministic/gds1-relations
+  - title: Relations and spatial joins (Problemset)
+    url: /deterministic/gds1-relations-solutions
   - title: Working with raster data
     url: /deterministic/gds2-rasters
-  - title: Relations and spatial joins problemset
-    url: /deterministic/gds1-relations-solutions
-  - title: Rasters problemset
+  - title: Working with raster data (Problemset)
     url: /deterministic/gds2-rasters-solutions
+# A chapter w/ a collection of sections beneath it
+- title: Deterministic Spatial Analysis
+  url: /stochastic/intro
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Feature engineering with geography 
+    url: /stochastic/gds3-geography-as-feature
+  - title: Visualizing geographic data using mapclassification
+    url: /stochastic/gds4-visualization
+  - title: Exploratory spatial data analysis in Python
+    url: /stochastic/gds5-exploration
+  - title: Exploring the Trump vote (Problemset)
+    url: /stochastic/gds5-exploration-solutions
+  - title: Spatial clusters and regionalization 
+    url: /stochastic/gds6-spatial-clusters
