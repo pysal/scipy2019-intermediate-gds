@@ -1,53 +1,88 @@
-# Books with Jupyter and Jekyll
+# Scipy 2019 Tutorial - Intermediate Methods for Geospatial Data Analysis
 
-<img src="https://circleci.com/gh/jupyter/jupyter-book.svg?style=svg" class="left">
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pysal/scipy2019-intermediate-gds/master)
 
-Jupyter Books lets you build an online book using a collection of Jupyter Notebooks
-and Markdown files. Its output is similar to the excellent [Bookdown](https://bookdown.org/yihui/bookdown/) tool,
-and adds extra functionality for people running a Jupyter stack.
+### Instructors
 
-For an example of a book built with Jupyter Books, see the [textbook for Data 100](https://www.textbook.ds100.org/) at UC Berkeley.
+- [Levi John Wolf](https://ljwolf.org) - [University of Bristol](http://www.bristol.ac.uk/geography/levi-j-wolf/overview.html) & [University of Chicago Center for Spatial Data Science](https://spatial.uchicago.edu/directory/levi-john-wolf-phd)
+- [Sergio Rey](https://sergerey.org/) - [Center for Geospatial Sciences, University of California, Riverside](http://spatial.ucr.edu/peopleRey.html)
 
-Here are a few features of Jupyter Books
 
-* All course content is written in markdown and Jupyter Notebooks, stored in `notebooks/`
-* The Jupyter Book repo comes packaged with helper scripts to convert these into Jekyll pages (in `scripts/`) that can be hosted for free on GitHub
-* Pages can have [Binder](https://mybinder.org) or JupyterHub links automatically added for interactivity.
-* The website itself is based on Jekyll, and is highly extensible and can be freely-hosted on GitHub.
-* There are lots of nifty HTML features under-the-hood, such as Turbolinks fast-navigation and
-  click-to-copy in code cells.
+This tutorial introduces intermediate concepts in geospatial data analysis in Python, bridging tabular vector data and raster data. The first component of the workshop focuses on intermediate topics in spatial data analysis, such as spatial joins, nearest neighbor queries, regionalization, and zonal statistics. The second component of the workshop focuses on exploratory spatial statistical methods for understanding the structure of spatial data. 
 
-## Getting started
+## Outline of the Workshop
 
-To get started, you may be interested in the following links.
-Here are a few links of interest:
+- 1:10-1:30: **Installation & setup**
 
-* **[Quickstart](features/features)** is a quick demo and overview of Jupyter Books.
+  If you cannot complete the installation instructions ahead of time, please come slightly early so we can work on ensuring everyone can get the required packages installed and so that you can run the workshop material & exercises
 
-* **[The Jupyter Book Guide](guide/01_overview)**
-  will step you through the process of configuring and building your own Jupyter Book.
+- 1:30-2:45: **Relations**
 
-* **[The Jupyter Book template repo](https://github.com/jupyter/jupyter-book)** is the template
-  repository you'll use as a start for your Jupyter Book.
+    Working with spatial joins, nearest neighbor joins, geocoding, basemapping, and naive regionalization methods. *(problem set planned for the final 15 minutes)*
 
-* **A demo of the Jupyter Book** can be browsed via the sidebar to the left.
+- 2:30-3:30: **Rasters**
 
-## Installation
+    Working with raster data, and working between raster and vector data.  *(problem set planned for the final 15 minutes)*
 
-Here's a brief rundown of how to create your own Jupyter Book using this site. For a more
-complete guide, see [the Jupyter Book guide](guide/01_overview).
+- 3:30-3:45: **Break** 
 
-* Fork the Jupyter Book template repo
-* Replace the demo notebooks in `content/` with your own notebooks and markdown files.
-* Create a Table of Contents yaml file by editing `_data/toc.yaml`.
-* Generate the Jekyll markdown for your notebooks by running `scripts/generate_book.py`
-* Push your changes to GitHub (or wherever you host your site)!
+- 3:45-4:30: **Exploratory spatial data analysis**
 
-## Acknowledgements
+  Examining spatial relationships in mathematical terms, including how to represent spatial relations in mathematical forms. 
 
-Jupyter Books was originally created by [Sam Lau][sam] and [Chris Holdgraf][chris]
-with support of the **UC Berkeley Data Science Education Program and the Berkeley
-Institute for Data Science**.
+- 4:30-5:30: **Clustering & Anomaly Detection**
 
-[sam]: http://www.samlau.me/
-[chris]: https://predictablynoisy.com
+    Understanding and examining the strange and novel spatial structures in data *(problem set planned for the final 15 minutes)*
+
+## Installation notes
+
+Following this tutorial will require recent installations of:
+
+- Python >= 3.5 
+- pandas
+- geopandas >= 0.3.0
+- rasterio
+- python-rasterstats
+- geopy
+- contextily
+- matplotlib
+- rtree
+- libpysal
+- scikit-learn
+- [Jupyter Notebook](http://jupyter.org)
+
+If you do not yet have these packages installed, we recommend to use the [conda](http://conda.pydata.org/docs/intro.html) package manager to install all the requirements 
+(you can install [miniconda](http://conda.pydata.org/miniconda.html) or install the (larger) Anaconda
+distribution, found at https://www.anaconda.com/download/).
+
+Once this is installed, the following command will install all required packages in your Python environment:
+
+```
+conda env create -f environment.yml
+```
+
+
+## Downloading the tutorial materials
+
+**NOTE:** *We may update the materials up until the workshop. So, please make sure that, if you download the materials, you refresh the downloaded material close to the workshop.*
+
+If you have git installed, you can get the tutorial materials by cloning this repo:
+
+    git clone https://github.com/pysal/scipy2019-intermediate-gds
+
+Otherwise, you can download the repository as a .zip file by heading over
+to the GitHub repository (https://github.com/pysal/scipy2019-intermediate-gds) in
+your browser, click the green "Download" button in the upper right, and then click the "Download Zip" link:
+
+![](download.png)
+
+## Test the tutorial environment
+
+To make sure everything was installed correctly, open a terminal, and change its directory (`cd`) so that your working directory is the tutorial materials you downloaded in the step above. Then enter the following:
+
+```sh
+python check_environment.py
+```
+
+Make sure that this scripts prints "All good. Enjoy the tutorial!"
+
