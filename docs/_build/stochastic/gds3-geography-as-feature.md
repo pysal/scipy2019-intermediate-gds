@@ -5,7 +5,7 @@ has_widgets: false
 title: 'Feature engineering with geography'
 prev_page:
   url: /stochastic/intro
-  title: 'Deterministic Spatial Analysis'
+  title: 'Stochastic Spatial Analysis'
 next_page:
   url: /stochastic/gds4-visualization
   title: 'Visualizing geographic data using mapclassification'

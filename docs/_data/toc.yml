@@ -57,7 +57,7 @@
   - title: Working with raster data (Problemset)
     url: /deterministic/gds2-rasters-solutions
 # A chapter w/ a collection of sections beneath it
-- title: Deterministic Spatial Analysis
+- title: Stochastic Spatial Analysis
   url: /stochastic/intro
   not_numbered: true
   expand_sections: true

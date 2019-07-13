@@ -1,5 +1,5 @@
 ---
-title: 'Deterministic Spatial Analysis'
+title: 'Stochastic Spatial Analysis'
 prev_page:
   url: /deterministic/gds2-rasters-solutions
   title: 'Working with raster data (Problemset)'

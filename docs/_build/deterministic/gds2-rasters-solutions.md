@@ -8,7 +8,7 @@ prev_page:
   title: 'Working with raster data'
 next_page:
   url: /stochastic/intro
-  title: 'Deterministic Spatial Analysis'
+  title: 'Stochastic Spatial Analysis'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
