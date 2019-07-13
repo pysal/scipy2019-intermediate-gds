@@ -74,7 +74,7 @@ Otherwise, you can download the repository as a .zip file by heading over
 to the GitHub repository (https://github.com/pysal/scipy2019-intermediate-gds) in
 your browser, click the green "Download" button in the upper right, and then click the "Download Zip" link:
 
-![](download.png)
+![](images/download.png)
 
 ## Test the tutorial environment
 
